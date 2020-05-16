@@ -1,10 +1,9 @@
 public class Hello {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         RunnaB b = new RunnaB();
         Thread t1 = new Thread(b);
         t1.start();
-
-        synchronized(t1) {
+        synchronized(b) {
             try {
                 System.out.println("Waiting for B...");
                 t1.wait();

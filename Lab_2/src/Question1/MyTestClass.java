@@ -1,4 +1,6 @@
-public class TestClass {
+package Question1;
+
+public class MyTestClass {
     public static void main(String[] args) {
         MyRunnable mr = new MyRunnable();
         Thread t1 = new Thread(mr);
