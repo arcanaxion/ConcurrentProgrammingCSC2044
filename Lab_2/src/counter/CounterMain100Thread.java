@@ -9,6 +9,7 @@ public class CounterMain100Thread {
                 @Override
                 public void run() {
                     for (int x = 0; x < 1000; x++) {
+                        System.out.println();
                         c.increment();
                         //System.out.println("Run by " + Thread.currentThread().getName() + ", counter.Counter is " + c.getValue());
                     }
