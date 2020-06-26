@@ -68,6 +68,9 @@ public class Question_4 {
         ExecutorService printers = Executors.newFixedThreadPool(2);
         ExecutorService computers = Executors.newFixedThreadPool(5);
 
+//        ExecutorService printers = Executors.newCachedThreadPool();
+//        ExecutorService computers = Executors.newCachedThreadPool();
+
         for (int x=0; x<5; x++) {
             printers.submit(new Thread(new Printer(queue)));
         }
