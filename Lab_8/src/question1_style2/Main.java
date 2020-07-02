@@ -1,8 +1,7 @@
-package question1_style1;
+package question1_style2;
 
+import java.util.LinkedList;
 import java.util.Scanner;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -17,20 +16,26 @@ class Chef implements Runnable {
     public void run() {
         while (true) {
             order.lock.lock();
-            try {
-//                System.out.println(Thread.currentThread().getName() + " is waiting.");
-                order.cond.await();
+            while (order.order.size() == 0) {
+                try {
+                    order.cond.await();
+                } catch (InterruptedException e) {
 
-                System.out.printf("Chef %s is preparing order: %s\n", Thread.currentThread().getName(), order.getOrder());
-            } catch (InterruptedException e) {
-            } finally {
-                order.lock.unlock();
+                } finally {
+                    order.lock.unlock();
+                }
             }
+
+            System.out.printf("Chef %s is preparing order: %s\n", Thread.currentThread().getName(), order.order.pop());
 
             try {
                 Thread.sleep(3000);
             } catch (InterruptedException e) { }
             System.out.println(Thread.currentThread().getName() + " is ready for a new order.");
+
+            order.queueLock.lock();
+            order.queueCond.signal();
+            order.queueLock.unlock();
         }
     }
 }
@@ -50,9 +55,21 @@ class Waitress implements Runnable {
         } catch (InterruptedException e) { }
 
         while (true) {
-            order.lock.lock();
+            // queue is full
+            while (order.order.size() >= order.listSize) {
+                order.queueLock.lock();
+                try {
+                    order.queueCond.await();
+                } catch (InterruptedException e) {
+                } finally {
+                    order.queueLock.unlock();
+                }
+            }
+
             System.out.println("Enter your order: ");
-            order.addOrder(new Scanner(System.in).nextLine());
+            order.order.add(new Scanner(System.in).nextLine());
+
+            order.lock.lock();
             order.cond.signal();
             order.lock.unlock();
 
@@ -65,17 +82,13 @@ class Waitress implements Runnable {
 }
 
 class Order {
-    private BlockingQueue<String> order = new ArrayBlockingQueue<String>(2);
+    int listSize = 2;
+    LinkedList<String> order = new LinkedList<String>();
     ReentrantLock lock = new ReentrantLock();
     Condition cond = lock.newCondition();
 
-    public void addOrder(String order) {
-        this.order.add(order);
-    }
-
-    public String getOrder() throws InterruptedException {
-        return order.take();
-    }
+    ReentrantLock queueLock = new ReentrantLock();
+    Condition queueCond = queueLock.newCondition();
 }
 
 public class Main {
