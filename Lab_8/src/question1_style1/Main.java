@@ -82,9 +82,6 @@ public class Main {
     public static void main(String[] args) {
         Order order = new Order();
 
-        ReentrantLock lock = new ReentrantLock();
-        Condition cond = lock.newCondition();
-
         Thread chef1 = new Thread(new Chef(order));
         chef1.setName("Chef Wan");
         Thread chef2 = new Thread(new Chef(order));

@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d743dd4-5869-4e2b-b84c-c02a746aa2bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_test_2/Class_test_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConcurrentProgrammingCSC2044.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_8/Lab_8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab_8/src/question1_style1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_test2/src/Question_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_test2/src/Question_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sandbox/Sandbox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_1/src/attempt_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_1/src/attempt_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_test_2/Class_test_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Class_test2/Class_test2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_8/src/question1_style1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_8/src/question1_style1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +63,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Class_test_2" />
+    <property name="last_opened_file_path" value="D:/University/Semester 7/Concurrent Programming/Assignment/Class Test 2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_1_style1.Main" />
-      <module name="Lab_7" />
+      <option name="MAIN_CLASS_NAME" value="Question_2.Main" />
+      <module name="Class_test2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Question_1_style1.*" />
+          <option name="PATTERN" value="Question_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +83,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_1_style2.Main" />
-      <module name="Lab_7" />
+      <option name="MAIN_CLASS_NAME" value="type1.Main" />
+      <module name="Sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Question_1_style2.*" />
+          <option name="PATTERN" value="type1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Question_2_style1.Main" />
-      <module name="Lab_7" />
+      <option name="MAIN_CLASS_NAME" value="attempt_1.Main" />
+      <module name="Assignment_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Question_2_style1.*" />
+          <option name="PATTERN" value="attempt_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +108,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question1_style1.Main" />
-      <module name="Lab_8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="question1_style1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Sandbox" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Jordan.Ex1.Test" />
-      <module name="Lab_7" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Question_1.Main" />
+      <module name="Class_test2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Jordan.Ex1.*" />
+          <option name="PATTERN" value="Question_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -170,11 +164,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1593668827794">
+    <state x="726" y="224" key="#Auto_Import" timestamp="1593743374886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="224" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1593743374886" />
+    <state x="686" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1594019761910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593568518960" />
-    <state x="686" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593668827794" />
+    <state x="686" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594019761910" />
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1593064752342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -183,31 +181,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="150" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1593572420696" />
-    <state x="651" y="104" key="FileChooserDialogImpl" timestamp="1593666654842">
+    <state x="651" y="104" key="FileChooserDialogImpl" timestamp="1593748201082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="73" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593662002913" />
-    <state x="651" y="104" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593666654842" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593673497361">
+    <state x="651" y="104" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593748201082" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1594024449554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593572703685" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593673497361" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593673497361">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594024449554" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1594024449554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593572703685" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593673497361" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593673497361">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594024449554" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1594024449554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593572703685" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593673497361" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593673497361">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594024449554" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1594024449554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593572703685" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593673497361" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594024449554" />
     <state x="489" y="97" width="998" height="591" key="NewModule_or_Project.wizard" timestamp="1593666657062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,14 +216,14 @@
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593662007392" />
     <state x="229" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593666660235" />
-    <state x="332" y="120" key="new project wizard" timestamp="1593666671607">
+    <state x="332" y="120" key="new project wizard" timestamp="1593746811288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1593661677321" />
-    <state x="332" y="120" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593666671607" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1593668486521">
+    <state x="332" y="120" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593746811288" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1593745281587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593668486521" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593745281587" />
   </component>
 </project>
